@@ -1,13 +1,15 @@
 //define functions here
-$('p').on("click", function getIt(){
+function getIt(){
+$('p').on("click", function(){
   alert('Hey!');
 });
+}
 
-$()
-
-$("form").on('keydown', function pressIt(){
-  
+function pressIt(){
+$("form").on('keydown', function(key){
+  if key.which
 });
+}
 
 
 
