@@ -1,6 +1,6 @@
 //define functions here
-$('p').on("getIt", function(){
-  if ()
+$('p').on("click", function(){
+  
   
 });
 
