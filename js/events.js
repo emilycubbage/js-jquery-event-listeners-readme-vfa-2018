@@ -1,9 +1,13 @@
 //define functions here
-$('p').on("click", function(){
-  
-  
+$('p').on("click", function getIt(){
+  alert('Hey!');
 });
 
+$()
+
+$("form").on('keydown', function pressIt(){
+  
+});
 
 
 
