@@ -1,5 +1,8 @@
 //define functions here
-$('p').on
+$('p').on("getIt", function(){
+  
+  
+});
 
 
 
