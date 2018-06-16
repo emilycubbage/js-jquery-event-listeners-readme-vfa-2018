@@ -7,7 +7,7 @@ $('p').on("click", function(){
 
 function pressIt(){
 $("form").on('keydown', function(key){
-  if key.which
+  if key.which ==
 });
 }
 
