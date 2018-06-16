@@ -7,7 +7,7 @@ $('p').on("click", function(){
 
 function frameIt(){
   $('img').on('load', function(){
-    $('img').addClass(tasty)
+    $('img').addClass("tasty");
   });
 }
 
@@ -17,6 +17,12 @@ $("form").on('keydown', function(key){
     alert('g was pressed');
   }
 });
+}
+
+function submitIt(){
+  $("form").on('submit',function(){
+    alert('Your form is going to be submitted now.');
+  });
 }
 
 
